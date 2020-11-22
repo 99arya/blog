@@ -4,11 +4,10 @@ import BlogContext from "../context/BlogContext";
 
 const IndexScreen = () => {
   const value = useContext(BlogContext);
-  console.log("value", value);
 
   return (
     <View>
-      <Text>Index Screen</Text>
+      <Text>Index Screen {value} </Text>
     </View>
   );
 };
